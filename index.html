@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- This is a webpage about Abram Krebs -->
+    <title>About Abram Krebs</title>
+
+    <!-- Start off with the normalize min css sheet to make things look correct -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+    />
+    <!-- Now use my own style sheet to pretty it up -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8" />
+    <meta name="description" content="Abe Krebs' Portfolio Website" />
+    <!-- A couple of keywords to help search engines understand the content -->
+    <meta
+      name="keywords"
+      content="Krebs, Engineering Science, electrochemistry, portfolio"
+    />
+    <meta name="author" content="Abe Krebs" />
+    <!-- This was suggested to have to make the page look good across different devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <!-- WEB PAGE CONTENT HERE -->
+
+    <header>
+      <div class="logo">Abe Krebs</div>
+      <nav>
+        <ul id="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#aboutme">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contactme">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- The section with a breif Introduction -->
+      <section id="intro">
+        <div class="group">
+          <div class="item">
+            <img
+              src="images/mypicture.jpg"
+              alt="Abe Krebs - Profile Photo"
+              class="image-enhanced"
+            />
+          </div>
+          <div class="item">
+            <h1>Hello, I am Abe Krebs</h1>
+            <p>
+              I live in Pennsylvania and I make laboratory equipment for use in
+              electrochemistry. Electrochemistry covers all kinds of interesting
+              topics, including batteries, corrosion, and solar cells. I bet you
+              are using something every day that deals with electrochemistry!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- The section that talks about me -->
+      <section id="aboutme" class="dark-background">
+        <div class="group">
+          <div class="item">
+            <h1>About Abe</h1>
+            <p>
+              I attend Penn State University for both my undergraduate and
+              graduate degrees in <em>Engineering Science and Mechanics</em>. I
+              have been working for over 25 years in the field of
+              electrochemistry. I have been writing code since I had my first
+              computer, a CP/M based
+              <a
+                href="https://www.old-computers.com/museum/computer.asp?st=1&c=610"
+                >Televideo TS802</a
+              >.
+            </p>
+            <p>
+              I am trying to become more educated about some of the relevant
+              technologies used in today's web applications. I look forward to
+              working with others who are interested in learning about these
+              technologies. In addition to computers, I enjoy spending time with
+              my family, woodworking, skiing and traveling.
+            </p>
+          </div>
+        </div>
+      </section>
+
+
+    <!-- Portfolio -->
+    <section id="portfolio">
+			<h2>Portfolio</h2>
+			<div class="group">
+				<div class="item">
+          <img src="images/placeholder.jpg" alt="Quiz App - Abe Krebs" class="image-enhanced">
+          <h3>Jeopardy App</h3>
+					<p>This is a description of the Jeopardy App I built. I'll share what my goal was in creating it, the skills/languages I applied, and what I learned doing it.</p>
+				</div>
+				<div class="item">
+          <img src="images/placeholder.jpg" alt="Music Lyrics App - Abe Krebs" class="image-enhanced">
+          <h3>Music Lyrics App</h3>
+					<p>This is a description of the Music Lyrics App I built. I'll share what my goal was in creating it, the skills/languages I applied, and what I learned doing it.</p>
+				</div>
+			</div>
+      <div class="group">
+				<div class="item">
+          <img src="images/placeholder.jpg" alt="Spa App - Abe Krebs" class="image-enhanced">
+          <h3>Spa Appointment App</h3>
+					<p>This is a description of the Spa Appointment App I built. I'll share what my goal was in creating it, the skills/languages I applied, and what I learned doing it.</p>
+				</div>
+				<div class="item">
+          <img src="images/placeholder.jpg" alt="Team Project - Thinkful" class="image-enhanced">
+          <h3>Team Project App</h3>
+					<p>This is a description of the Team Project App I built. I'll share what my goal was in creating it, the skills/languages I applied, and what I learned doing it.</p>
+				</div>
+			</div>
+		</section>
+
+      <!-- The section that says how to contact me -->
+      <section id="contactme" class="dark-background">
+        <div class="group">
+          <div class="item">
+            <h1>Contact Abe</h1>
+            <p>
+              There are a few different ways you can get in touch with me. Take
+              a look at the selections below and choose the one that makes sense
+              for you!
+            </p>
+            <ol>
+              <li>
+                You can contact me using
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/abram-krebs-4165a74a/"
+                  >Linked In</a
+                >.
+              </li>
+              <li>
+                Alternatively you can find out more about me by looking at my
+                <a target="_blank" href="https://github.com/duckwoodthinkful"
+                  >GitHub</a
+                >
+                pages
+              </li>
+              <li>
+                Finally, you can get me the old fashioned way, email...
+                <form action="https://formspree.io/f/mwkwgwlp" method="post">
+                  <label for="user-name">Name:</label>
+                  <input id="user-name" type="text" name="name" />
+
+                  <label for="user-email">Email:</label>
+                  <input id="user-email" type="text" name="email" />
+
+                  <label for="user-message">Your Message:</label>
+                  <textarea id="user-message" name="message"></textarea>
+                  <button type="submit">Submit</button>
+                </form>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>(c) 2021 Abe Krebs</footer>
+  </body>
+</html>
